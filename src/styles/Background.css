@@ -1,0 +1,47 @@
+.app-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: flex;
+}
+.app-bg .bg {
+  flex: 1;
+}
+.o-turn .bg-x,
+.x-turn .bg-o {
+  opacity: 0.8;
+}
+.x-blue .bg-x {
+  background-color: #5dadec;
+}
+.x-green .bg-x {
+  background-color: #78b159;
+}
+.x-purple .bg-x {
+  background-color: #aa8ed6;
+}
+.x-red .bg-x {
+  background-color: #be1931;
+}
+.x-yellow .bg-x {
+  background-color: #fdcb58;
+}
+
+.o-blue .bg-o {
+  background-color: #5dadec;
+}
+.o-green .bg-o {
+  background-color: #78b159;
+}
+.o-purple .bg-o {
+  background-color: #aa8ed6;
+}
+.o-red .bg-o {
+  background-color: #be1931;
+}
+.o-yellow .bg-o {
+  background-color: #fdcb58;
+}
